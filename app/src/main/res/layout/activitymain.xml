@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="190dp"
+            android:layout_height="62dp"
+            android:text="2048"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#FFC107"
+            android:textColorLink="#4CAF50"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <FrameLayout
+            android:layout_width="69dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="339dp"
+            tools:layout_editor_absoluteY="3dp">
+
+            <TextView
+                android:id="@+id/Titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Puntos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/Txtcontador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/Titulo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡¡Une los numeros para conseguir el numero 2048!!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#673AB7"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <FrameLayout
+            android:layout_width="408dp"
+            android:layout_height="359dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="166dp">
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
