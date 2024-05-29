@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.taller2_2048"
+    namespace = "com.example.a2048_final"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.taller2_2048"
+        applicationId = "com.example.a2048_final"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -59,9 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.fragment)
-    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

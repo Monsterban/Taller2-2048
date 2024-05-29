@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Taller2-2048"
+rootProject.name = "2048_final"
 include(":app")
+ 
